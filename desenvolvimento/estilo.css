@@ -1,130 +1,230 @@
+:root {
+    --cream: #fffdf7;
+    --paper: #fffaf2;
+    --line: #e7cc70;
+    --yellow: #f7d739;
+    --yellow-deep: #cca900;
+    --blue: #233b69;
+    --blue-dark: #192b4d;
+    --text: #32271d;
+    --muted: #6a675c;
+    --shadow: rgba(73, 56, 0, 0.16);
+    --font-title: "Trebuchet MS", "Verdana", "Arial", sans-serif;
+    --font-body: "Cambria", "Times New Roman", serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header {
-    height: 10vh;
-    width: 100%;
+body {
+    min-height: 100vh;
+    color: var(--text);
+    background:
+        radial-gradient(circle at 30% 20%, #fff7cf 0%, transparent 20%),
+        radial-gradient(circle at 70% 80%, #fee7a9 0%, transparent 20%),
+        linear-gradient(135deg, #fdfcfa 0%, #f8e9c8 100%);
+    font-family: var(--font-body);
+}
 
+body::before {
+    content: "";
+    position: fixed;
+    inset: -40px;
+    background-image: radial-gradient(#e3d597 1px, transparent 1px);
+    background-size: 34px 34px;
+    opacity: 0.24;
+    transform: rotate(2deg);
+    pointer-events: none;
+}
+
+.topbar {
+    min-height: 76px;
+    width: 100%;
     display: flex;
     align-items: center;
-
-    padding-left: 2rem;
-
-    background-color: rgb(207, 207, 0);
-    border-bottom: 1px solid black;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, var(--yellow) 0%, var(--yellow-deep) 100%);
+    border-bottom: 2px solid var(--blue-dark);
+    box-shadow: 0 8px 18px var(--shadow);
 }
 
-h1 {
-    font-size: clamp(1.8rem, 3vw, 2.5rem);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
+.topbar h1 {
+    margin: 0;
+    font-family: var(--font-title);
+    font-weight: 800;
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    color: var(--blue-dark);
+    letter-spacing: 0.02em;
 }
 
-section {
-    min-height: 80vh;
+.app-shell {
+    min-height: calc(100vh - 76px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+}
+
+.quote-section {
+    width: min(100%, 960px);
+}
+
+.quote-wrap {
+    min-height: 480px;
     width: 100%;
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
-    padding: 2rem;
+    justify-content: center;
+    gap: 1.4rem;
+    padding: clamp(1.2rem, 3vw, 2.4rem);
+    background: rgba(255, 250, 242, 0.72);
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    box-shadow: 0 16px 36px var(--shadow), inset 0 0 30px rgba(255,255,240,0.8);
+    position: relative;
 }
 
-img {
+.quote-wrap::before,
+.quote-wrap::after {
+    content: "";
     position: absolute;
-    width: 70px;
-    height: 70px;
-    top: 20vh;
-    left: 18vw;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 242, 176, 0.68), transparent 70%);
+    filter: blur(12px);
+    pointer-events: none;
+}
+
+.quote-wrap::before {
+    left: -30px;
+    top: -20px;
+}
+
+.quote-wrap::after {
+    right: -20px;
+    bottom: -25px;
+}
+
+.icon-wrap {
+    width: 84px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--cream);
+    border-radius: 50%;
+    border: 3px solid #ffd8dd;
+    box-shadow: 0 0 0 8px rgba(255, 244, 232, 0.85), 0 12px 20px var(--shadow);
+    position: relative;
+    z-index: 2;
+}
+
+.icon-wrap img {
+    width: 64px;
+    height: 64px;
     object-fit: contain;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+.quote-card {
+    width: min(780px, 100%);
+    min-height: min(260px, 40vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: clamp(1.8rem, 4vw, 3rem);
+    background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 100%);
+    border: 1px solid rgba(255,255,255,0.8);
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 2px rgba(251, 239, 190, 0.2), 0 12px 22px var(--shadow);
+    position: relative;
+    overflow: hidden;
+}
+
+.quote-card::before {
+    content: "✦";
+    position: absolute;
+    color: rgba(255, 239, 179, 0.15);
+    font-size: 5rem;
+    left: 0.4rem;
+    top: -0.8rem;
+}
+
+.quote-card::after {
+    content: "✦";
+    position: absolute;
+    color: rgba(255, 239, 179, 0.15);
+    font-size: 5rem;
+    right: 0.8rem;
+    bottom: -1.2rem;
+}
+
+.quote-text {
+    width: min(680px, 90%);
+    margin: 0;
+    font-size: clamp(1.45rem, 2.1vw, 2rem);
+    line-height: 1.55;
+    font-weight: 700;
+    font-family: var(--font-body);
+    color: var(--yellow);
+    text-align: center;
+    text-shadow: 1px 1px 0 var(--blue-dark);
+    position: relative;
     z-index: 1;
 }
 
-div {
-    width: min(80%, 800px);
-    min-height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    background-color: black;
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
-p {
-    width: 100%;
-    max-width: 700px;
-
-    font-size: clamp(1.2rem, 2.5vw, 2rem);
-    line-height: 1.5;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-    color: rgb(207, 207, 0);
-    text-align: center;
-}
-
-button {
-    margin-top: 2rem;
-
-    min-height: 5vh;
-    width: min(10rem, 40vw);
-
-    padding: 0.5rem 1rem;
-
-    font-size: 1.2rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-    color: rgb(207, 207, 0);
-    background-color: black;
-
+.quote-button {
+    min-width: 180px;
+    min-height: 48px;
+    padding: 0.76rem 1.75rem;
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--cream);
+    background: linear-gradient(135deg, var(--blue) 0%, var(--blue-dark) 100%);
     border: none;
-    border-radius: 10px;
-
+    border-radius: 14px;
+    box-shadow: 0 8px 14px var(--shadow);
     cursor: pointer;
-
-    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
-button:hover {
-    background-color: rgb(207, 207, 0);
-    color: black;
+.quote-button:hover {
+    background: linear-gradient(135deg, var(--yellow) 0%, var(--yellow-deep) 100%);
+    color: var(--blue-dark);
     transform: translateY(-2px);
+    box-shadow: 0 12px 18px var(--shadow);
+}
+
+.quote-button:active {
+    transform: translateY(1px);
 }
 
 @media (max-width: 600px) {
-    header {
-        padding-left: 1rem;
-    }
-
-    section {
+    .topbar {
         padding: 1rem;
     }
 
-    div {
-        width: 95%;
-        min-height: 45vh;
-        padding: 1.5rem;
+    .quote-wrap {
+        min-height: 420px;
+        padding: 1rem;
     }
 
-    img {
-        width: 50px;
-        height: 50px;
-        top: 17vh;
-        left: 0;
+    .quote-card {
+        min-height: 220px;
     }
 
-    p {
-        font-size: 1.2rem;
+    .quote-text {
+        font-size: 1.32rem;
     }
 
-    button {
-        width: 8rem;
+    .quote-button {
+        min-width: 150px;
         font-size: 1rem;
     }
 }

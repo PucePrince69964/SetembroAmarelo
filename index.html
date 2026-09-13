@@ -8,16 +8,26 @@
     <link rel="icon" href="img/faixa_amarela.png">
 </head>
 <body>
-    <header>
+    <header class="topbar">
         <h1>Setembro Amarelo</h1>
     </header>
-    <section>
-        <div>
-            <img src="">
-            <p id="frase"></p>
-        </div>
-        <button onclick="gerador()">Nova Frase</button>
-    </section>
+
+    <main class="app-shell">
+        <section class="quote-section">
+            <div class="quote-wrap">
+                <div class="icon-wrap">
+                    <img src="img/mental-health.png" alt="Ícone de acolhimento emocional">
+                </div>
+
+                <article class="quote-card">
+                    <p id="frase" class="quote-text"></p>
+                </article>
+
+                <button class="quote-button" onclick="gerador()">Nova Frase</button>
+            </div>
+        </section>
+    </main>
+
     <script src="desenvolvimento/app.js"></script>
 </body>
 </html>
