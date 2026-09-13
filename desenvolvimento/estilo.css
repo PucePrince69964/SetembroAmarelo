@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 2rem;
+
+    background-color: rgb(207, 207, 0);
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    font-size: clamp(1.8rem, 3vw, 2.5rem);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+section {
+    min-height: 80vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+}
+
+img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 20vh;
+    left: 18vw;
+    object-fit: contain;
+    z-index: 1;
+}
+
+div {
+    width: min(80%, 800px);
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+p {
+    width: 100%;
+    max-width: 700px;
+
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
+    line-height: 1.5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    color: rgb(207, 207, 0);
+    text-align: center;
+}
+
+button {
+    margin-top: 2rem;
+
+    min-height: 5vh;
+    width: min(10rem, 40vw);
+
+    padding: 0.5rem 1rem;
+
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    color: rgb(207, 207, 0);
+    background-color: black;
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: rgb(207, 207, 0);
+    color: black;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    header {
+        padding-left: 1rem;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    div {
+        width: 95%;
+        min-height: 45vh;
+        padding: 1.5rem;
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+        top: 17vh;
+        left: 0;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    button {
+        width: 8rem;
+        font-size: 1rem;
+    }
+}
