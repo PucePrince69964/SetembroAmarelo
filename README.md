@@ -6,7 +6,7 @@ Uma página web desenvolvida como projeto de conscientização sobre o Setembro 
 
 O projeto consiste em uma página web que apresenta frases e mensagens de conscientização relacionadas à saúde emocional.
 
-O acesso à página é realizado por meio de um **QR Code disponibilizado nos panfletos desenvolvimentos pela equipe** no dia 19/092026, conectando a divulgação física da campanha à experiência digital.
+O acesso à página é realizado por meio de um **QR Code disponibilizado nos panfletos desenvolvimentos pela equipe** no dia 19/09/2026, conectando a divulgação física da campanha à experiência digital.
 
 A cada interação com o botão **"Nova Frase"**, uma nova mensagem é selecionada aleatoriamente e exibida na página.
 
@@ -48,9 +48,10 @@ Para executar o projeto localmente, é necessário ter o Git instalado.
 
 1. Clone o repositório:
 
-```bash git clone https://github.com/PucePrince69964/SetembroAmarelo.git```
+```git clone https://github.com/PucePrince69964/SetembroAmarelo.git```
 
 2. Acesse a pasta do projeto:
+
 ```bash cd SetembroAmarelo```
 
 3. Com a extensão **Live Server**, abra o arquivo index.html no navegador.
