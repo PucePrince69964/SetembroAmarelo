@@ -38,7 +38,7 @@ Setembro-Amarelo/
 │
 ├── img/
 │   └── faixa_amarela.png
-│   └── health-mental.png
+│   └── mental-health.png
 │
 └── index.html
 ```
