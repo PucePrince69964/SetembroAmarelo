@@ -52,6 +52,6 @@ Para executar o projeto localmente, é necessário ter o Git instalado.
 
 2. Acesse a pasta do projeto:
 
-```bash cd SetembroAmarelo```
+```cd SetembroAmarelo```
 
 3. Com a extensão **Live Server**, abra o arquivo index.html no navegador.
