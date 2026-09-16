@@ -51,4 +51,4 @@ Setembro-Amarelo/
 - Luan Victor - Registro de atividades - [GitHub](https://github.com/luanvanjos) - [LinkedIn](https://www.linkedin.com/in/luanvanjos/)
 - Murilo - Registro de atividades - [GitHub](https://github.com/PucePrince69964) - [LinkedIn](https://www.linkedin.com/in/gabriel-yago-7b0a1b1b9/)
 - Nicoly Saar - Relatório - [GitHub](https://github.com/PucePrince69964) - [LinkedIn](https://www.linkedin.com/in/gabriel-yago-7b0a1b1b9/)
-- Vinicius Cassio - Relatório - [GitHub](https://github.com/PucePrince69964) - [LinkedIn](https://www.linkedin.com/in/gabriel-yago-7b0a1b1b9/)
+- Vinicius Cassio - Relatório - [GitHub](https://github.com/ViniciusDII) - [LinkedIn](https://www.linkedin.com/in/viniciuscassionet/)
