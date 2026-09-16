@@ -107,9 +107,9 @@ const icon = document.querySelector("img")
 function gerador(){
     let num = Math.floor(Math.random() * frases.length)
     if (num < 50){
-        icon.src = "img/mental-health.png"
+        icon.src = "public/mental-health.png"
     } else {
-        icon.src = "img/faixa_amarela.png"
+        icon.src = "public/faixa_amarela.png"
     }
     frase.textContent = frases[num]
 }
