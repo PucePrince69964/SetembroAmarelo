@@ -54,4 +54,4 @@ Setembro-Amarelo/
 - Vinicius Cassio - Relatório - [GitHub](https://github.com/ViniciusDII) - [LinkedIn](https://www.linkedin.com/in/viniciuscassionet/)
 
 ## 📎 Link
--[Clique Aqui] (https://puceprince69964.github.io/SetembroAmarelo) 
+- [Clique Aqui](https://puceprince69964.github.io/SetembroAmarelo) 
