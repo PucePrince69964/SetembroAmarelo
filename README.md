@@ -53,5 +53,5 @@ Setembro-Amarelo/
 - Nicoly Saar - Relatório - [GitHub](https://github.com/NicolySaar) - [LinkedIn](https://www.linkedin.com/in/nicoly-saar-5592672a8)
 - Vinicius Cassio - Relatório - [GitHub](https://github.com/ViniciusDII) - [LinkedIn](https://www.linkedin.com/in/viniciuscassionet/)
 
-## 📎 Link
+## ⭐ Acesso ao site
 - [Clique Aqui](https://puceprince69964.github.io/SetembroAmarelo) 
