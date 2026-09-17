@@ -32,11 +32,11 @@ Além da funcionalidade principal, o projeto foi desenvolvido com foco em uma in
 ```text
 Setembro-Amarelo/
 │
-├── desenvolvimento/
+├── src/
 │   ├── estilo.css
 │   └── app.js
 │
-├── img/
+├── public/
 │   └── faixa_amarela.png
 │   └── mental-health.png
 │
