@@ -43,7 +43,7 @@ Setembro-Amarelo/
 └── index.html
 ```
 
-## Contribuidores
+## 🧑‍🔧 Contribuidores
 - Gabriel Yago - Desenvolvedor - [GitHub](https://github.com/PucePrince69964) - [LinkedIn](https://www.linkedin.com/in/gabriel-yago-7b0a1b1b9/)
 - Jonhness Emanuel - Desenvolvedor - [GitHub](https://github.com/V3ctr0r) - [LinkedIn](https://www.linkedin.com/in/jonhnes-monteiro-667ba5249/)
 - Danilo Nascimento - Designer do panfleto - [GitHub](https://github.com/Atlas-Ti-code) - [LinkedIn](https://www.linkedin.com/in/danilo-nascimento-04ba993a6/)
@@ -52,3 +52,6 @@ Setembro-Amarelo/
 - Murilo Azevedo - Registro de atividades - [GitHub](https://github.com/murilo2r) - [LinkedIn](https://www.linkedin.com/in/murilo-undefined-b78522386)
 - Nicoly Saar - Relatório - [GitHub](https://github.com/PucePrince69964) - [LinkedIn](https://www.linkedin.com/in/nicoly-saar-5592672a8)
 - Vinicius Cassio - Relatório - [GitHub](https://github.com/ViniciusDII) - [LinkedIn](https://www.linkedin.com/in/viniciuscassionet/)
+
+## Link
+- Link: https://puceprince69964.github.io/SetembroAmarelo
