@@ -50,7 +50,7 @@ Setembro-Amarelo/
 - Lucas Martins - Designer do panfleto - [GitHub](https://github.com/lucasmartinsdasilva2192004-source) - [LinkedIn](https://www.linkedin.com/in/lucas-martins-0b0aa43a6)
 - Luan Victor - Registro de atividades - [GitHub](https://github.com/luanvanjos) - [LinkedIn](https://www.linkedin.com/in/luanvanjos/)
 - Murilo Azevedo - Registro de atividades - [GitHub](https://github.com/murilo2r) - [LinkedIn](https://www.linkedin.com/in/murilo-undefined-b78522386)
-- Nicoly Saar - Relatório - [GitHub](https://github.com/PucePrince69964) - [LinkedIn](https://www.linkedin.com/in/nicoly-saar-5592672a8)
+- Nicoly Saar - Relatório - [GitHub](https://github.com/NicolySaar) - [LinkedIn](https://www.linkedin.com/in/nicoly-saar-5592672a8)
 - Vinicius Cassio - Relatório - [GitHub](https://github.com/ViniciusDII) - [LinkedIn](https://www.linkedin.com/in/viniciuscassionet/)
 
 ## 📎 Link
