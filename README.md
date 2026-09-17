@@ -47,7 +47,7 @@ Setembro-Amarelo/
 - Gabriel Yago - Desenvolvedor - [GitHub](https://github.com/PucePrince69964) - [LinkedIn](https://www.linkedin.com/in/gabriel-yago-7b0a1b1b9/)
 - Jonhness Emanuel - Desenvolvedor - [GitHub](https://github.com/V3ctr0r) - [LinkedIn](https://www.linkedin.com/in/jonhnes-monteiro-667ba5249/)
 - Danilo Nascimento - Designer do panfleto - [GitHub](https://github.com/Atlas-Ti-code) - [LinkedIn](https://www.linkedin.com/in/danilo-nascimento-04ba993a6/)
-- Lucas Martins - Designer do panfleto - [GitHub](https://github.com/PucePrince69964) - [LinkedIn](https://www.linkedin.com/in/gabriel-yago-7b0a1b1b9/)
+- Lucas Martins - Designer do panfleto - [GitHub](https://github.com/lucasmartinsdasilva2192004-source) - [LinkedIn](https://www.linkedin.com/in/lucas-martins-0b0aa43a6)
 - Luan Victor - Registro de atividades - [GitHub](https://github.com/luanvanjos) - [LinkedIn](https://www.linkedin.com/in/luanvanjos/)
 - Murilo - Registro de atividades - [GitHub](https://github.com/PucePrince69964) - [LinkedIn](https://www.linkedin.com/in/gabriel-yago-7b0a1b1b9/)
 - Nicoly Saar - Relatório - [GitHub](https://github.com/PucePrince69964) - [LinkedIn](https://www.linkedin.com/in/gabriel-yago-7b0a1b1b9/)
