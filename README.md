@@ -44,14 +44,14 @@ Setembro-Amarelo/
 ```
 
 ## 🧑‍🔧 Contribuidores
-- Gabriel Yago - Desenvolvedor - [GitHub](https://github.com/PucePrince69964) - [LinkedIn](https://www.linkedin.com/in/gabriel-yago-7b0a1b1b9/)
-- Jonhness Emanuel - Desenvolvedor - [GitHub](https://github.com/V3ctr0r) - [LinkedIn](https://www.linkedin.com/in/jonhnes-monteiro-667ba5249/)
-- Danilo Nascimento - Designer do panfleto - [GitHub](https://github.com/Atlas-Ti-code) - [LinkedIn](https://www.linkedin.com/in/danilo-nascimento-04ba993a6/)
+- Gabriel Yago - Desenvolvedor - [GitHub](https://github.com/PucePrince69964) - [LinkedIn](https://www.linkedin.com/in/gabriel-yago-7b0a1b1b9/) - [Instagram](https://www.instagram.com/gabriel.yago.1675/)
+- Jonhness Emanuel - Desenvolvedor - [GitHub](https://github.com/V3ctr0r) - [LinkedIn](https://www.linkedin.com/in/jonhnes-monteiro-667ba5249/) - [Instagram](https://www.instagram.com/jonhnes_monteiro/)
+- Danilo Nascimento - Designer do panfleto - [GitHub](https://github.com/Atlas-Ti-code) - [LinkedIn](https://www.linkedin.com/in/danilo-nascimento-04ba993a6/) - [Instagram](https://www.instagram.com/mendez_wy/)
 - Lucas Martins - Designer do panfleto - [GitHub](https://github.com/lucasmartinsdasilva2192004-source) - [LinkedIn](https://www.linkedin.com/in/lucas-martins-0b0aa43a6)
-- Luan Victor - Registro de atividades - [GitHub](https://github.com/luanvanjos) - [LinkedIn](https://www.linkedin.com/in/luanvanjos/)
-- Murilo Azevedo - Registro de atividades - [GitHub](https://github.com/murilo2r) - [LinkedIn](https://www.linkedin.com/in/murilo-undefined-b78522386)
-- Nicoly Saar - Relatório - [GitHub](https://github.com/NicolySaar) - [LinkedIn](https://www.linkedin.com/in/nicoly-saar-5592672a8)
-- Vinicius Cassio - Relatório - [GitHub](https://github.com/ViniciusDII) - [LinkedIn](https://www.linkedin.com/in/viniciuscassionet/)
+- Luan Victor - Registro de atividades - [GitHub](https://github.com/luanvanjos) - [LinkedIn](https://www.linkedin.com/in/luanvanjos/) - [Instagram](https://www.instagram.com/_.dosanjos)
+- Murilo Azevedo - Registro de atividades - [GitHub](https://github.com/murilo2r) - [LinkedIn](https://www.linkedin.com/in/murilo-undefined-b78522386) - [Instagram](https://www.instagram.com/mui_azvdo/)
+- Nicoly Saar - Relatório - [GitHub](https://github.com/NicolySaar) - [LinkedIn](https://www.linkedin.com/in/nicoly-saar-5592672a8) - [Instagram](https://www.instagram.com/nicolysaar/)
+- Vinicius Cassio - Relatório - [GitHub](https://github.com/ViniciusDII) - [LinkedIn](https://www.linkedin.com/in/viniciuscassionet/) - [Instagram](https://www.instagram.com/vinicius3z/)
 
 ## ⭐ Acesso ao site
 - [Clique Aqui](https://puceprince69964.github.io/SetembroAmarelo) 
